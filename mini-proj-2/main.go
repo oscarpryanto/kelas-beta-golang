@@ -9,6 +9,9 @@ import (
 
 func main() {
 	var pilihanMenu int
+	_ = os.Mkdir("books", 0777) //create directory
+	_ = os.Mkdir("pdf", 0777)   //create directory
+
 	fmt.Println("===========================================")
 	fmt.Println("Aplikasi Manajemen Daftar Buku Perpustakaan")
 	fmt.Println("===========================================")
